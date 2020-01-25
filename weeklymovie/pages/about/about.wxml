@@ -1,0 +1,6 @@
+<view  class="container">
+  <image class="about-banner" src="/images/simba.jpg"></image>
+  <text style="font-weigth: bold; font-size: 20px;">电影周周看</text>
+  <text>我</text><navigator style="display: inline; color: green; " url="">每周推荐</navigator><text>一部好片</text>
+  <text>我的微博： weibo.com/alvin</text>
+</view>
