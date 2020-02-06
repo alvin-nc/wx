@@ -20,7 +20,7 @@ Page({
     var that = this
 
     wx.request({
-      url: "https://www.baidu.com/v2/movie/subject/" + options.id,
+      url: "https://douban.uieee.com/v2/movie/subject/" + options.id,
 
 
       header: {
@@ -43,10 +43,9 @@ Page({
         }
 
       }
-
     })
-
     wx.showNavigationBarLoading()
+
   },
 
   /**

@@ -1,5 +1,5 @@
 <view>
-  <swiper class="movie-swipr" indicator-dots="{{true}}" previous-margin="50rpx" next-margin="50rpx" current="{{currentIndex}}">
+  <swiper class="movie-swiper" indicator-dots="{{true}}" previous-margin="50rpx" next-margin="50rpx" current="{{currentIndex}}">
     <swiper-item class="movie" wx:for="{{weeklyMovieList}}" wx:key="item">
       <view class="container movie-card" bindtap="f1" data-uaer-name="blabla" data-movie-id="{{item.id}}">
         <image class="movie-image" src="{{item.imagePath}}"></image>
